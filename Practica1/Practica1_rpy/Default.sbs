@@ -1,0 +1,1243 @@
+I-Logix-RPY-Archive version 8.6.0 Java 4012249
+{ ISubsystem 
+	- _id = GUID f37567ff-e040-4aae-bbd0-9a63eca54fee;
+	- _myState = 8192;
+	- _name = "Default";
+	- _lastID = 22;
+	- weakCGTime = 11.15.2013::9:26:13;
+	- strongCGTime = 11.15.2013::8:51:17;
+	- _defaultComposite = GUID 5ff2363b-6502-4cbc-a476-94b3af09fa64;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 23;
+		- value = 
+		{ IClass 
+			- _id = GUID 5ff2363b-6502-4cbc-a476-94b3af09fa64;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- weakCGTime = 11.15.2013::8:51:17;
+			- strongCGTime = 11.15.2013::8:51:17;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 1fce3eb9-9154-4d4b-b23d-386906dbf5e0;
+			- _myState = 8192;
+			- _name = "Hospital";
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Model1";
+				- _id = GUID 203b5c7e-a4c8-41d1-ad2a-fe3c8938ae7f;
+			}
+			- weakCGTime = 11.15.2013::9:0:31;
+			- strongCGTime = 11.15.2013::8:51:17;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 3;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 949d08eb-9423-47b3-baa6-0a8f689dbcea;
+					- _myState = 10240;
+					- _name = "itsProfesional";
+					- _multiplicity = "0..*";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 6a8b69b9-023c-4a97-8bdc-b8783b107bfc;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 1d45195e-578e-4d90-9974-a4b0bc9a11e9;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID fde2a5ce-cd47-479b-b8d3-f02a82b01af3;
+					- _myState = 10240;
+					- _name = "itsVisitas";
+					- _multiplicity = "0..*";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 6db80654-7c03-44e7-8ea2-61a39d2f062c;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID f45825f5-ee67-4aa9-af56-6c35a3b64443;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 753b547c-11cf-4456-b354-df3926786f63;
+					- _myState = 10240;
+					- _name = "itsPaciente";
+					- _multiplicity = "0..*";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 2aee8c37-0a5c-4eaf-ab50-267b7568166d;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID e4fe5d60-68fe-4f14-9519-64cbe64c3db9;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 2aee8c37-0a5c-4eaf-ab50-267b7568166d;
+			- _myState = 8192;
+			- _name = "Paciente";
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Model1";
+				- _id = GUID 203b5c7e-a4c8-41d1-ad2a-fe3c8938ae7f;
+			}
+			- _lastID = 1;
+			- weakCGTime = 11.15.2013::9:27:8;
+			- strongCGTime = 11.15.2013::8:51:17;
+			- Inheritances = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IGeneralization 
+					- _id = GUID aa5d2e8b-a6f3-4e3e-a52c-728497e5a2a0;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IClass";
+						- _id = GUID daf2598c-4992-4bae-bea8-66a6e5dcd3ba;
+					}
+					- _inheritanceType = iPublic;
+					- _isVirtual = 0;
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 11;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID aa99753c-00d0-4cfc-a5a6-2551cad1a97c;
+					- _myState = 10240;
+					- _name = "itsAlertasSanitarias";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID cb68a83a-577f-4668-b6bb-e93b40309fcd;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 41ca3cb2-64ff-4ce8-9b22-abbd502f8860;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 35e67dec-81cd-4950-b568-f7a4fd931704;
+					- _myState = 10240;
+					- _name = "itsHistorialPaciente";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 3fdd743c-9918-46bd-a902-4a8e36c7bfa3;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID d33a01a7-f625-4cee-9eeb-bb20047d2553;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 6997c61c-434a-45a4-89bb-50cf9da89536;
+					- _myState = 10240;
+					- _name = "itsHistorialPaciente_1";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 3fdd743c-9918-46bd-a902-4a8e36c7bfa3;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID a43247e5-16df-4c88-9c5f-1589d78c6912;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID e29915f4-c636-4830-827a-8c91a61db361;
+					- _myState = 10240;
+					- _name = "itsAlertasSanitarias_1";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID cb68a83a-577f-4668-b6bb-e93b40309fcd;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID aa447322-b7c3-4cfb-a039-8dd385fbef07;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 80fda9ac-75df-4001-a57b-bacdf49c7b98;
+					- _myState = 10240;
+					- _name = "itsVisitas";
+					- _multiplicity = "0..*";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 6db80654-7c03-44e7-8ea2-61a39d2f062c;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID f4f0667b-b526-419b-b5c7-21642a748fb9;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID e4fe5d60-68fe-4f14-9519-64cbe64c3db9;
+					- _myState = 10240;
+					- _name = "itsHospital";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 1fce3eb9-9154-4d4b-b23d-386906dbf5e0;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 753b547c-11cf-4456-b354-df3926786f63;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 16190a5c-b90e-46a1-8999-46c3197f98da;
+					- _myState = 10240;
+					- _name = "itsEnfermedad";
+					- _multiplicity = "1..*";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 51b89127-b507-4a8a-bad6-4db128091cf1;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 58039c0b-5f86-48d3-a9ef-4db606aaa67a;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 569dbdd6-9107-4150-8a7a-7fdf70762328;
+					- _myState = 10240;
+					- _name = "itsLocalizacion";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 91d90e83-b01d-4c06-b7a9-5f54c22b4515;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 1ceb95cd-e3c1-47b6-8f86-373946da782e;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID c0f5c717-4f78-4214-bee0-2cda44c4cf32;
+					- _myState = 10240;
+					- _name = "itsPlanDeVisitasPeriodicas";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 76dae353-8660-4590-b3d5-44120db03b8b;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID c2166647-02d2-45ed-b7bf-02955630baad;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 397266e4-dcd4-4f33-a1f2-1958d8b183ab;
+					- _myState = 10240;
+					- _name = "itsEventos";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID c8021acb-09e9-4a92-9c6c-c21cd9a7e909;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 93831719-425c-4395-81fc-31273d3ccdc0;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 2b682033-cf7c-4a0b-8a4c-601053bc7784;
+					- _myState = 10240;
+					- _name = "itsRecomendacionesSaludables";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 77e2629d-6094-4fac-8488-cdd52ffeafc8;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID e7204946-5c4c-4733-85f7-902f65ba9b11;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 51b89127-b507-4a8a-bad6-4db128091cf1;
+			- _myState = 8192;
+			- _name = "Enfermedad";
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Model1";
+				- _id = GUID 203b5c7e-a4c8-41d1-ad2a-fe3c8938ae7f;
+			}
+			- weakCGTime = 11.15.2013::9:12:22;
+			- strongCGTime = 11.15.2013::8:51:17;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 58039c0b-5f86-48d3-a9ef-4db606aaa67a;
+					- _myState = 10240;
+					- _name = "itsPaciente";
+					- _multiplicity = "0..*";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 2aee8c37-0a5c-4eaf-ab50-267b7568166d;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 16190a5c-b90e-46a1-8999-46c3197f98da;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 87b02512-2fff-49f4-a145-adac0d5da2ab;
+					- _myState = 10240;
+					- _name = "itsDepartamento";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 57b717d5-42e6-4ed0-a8a9-eecc4d741f77;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID b32d96bc-35ff-4b6f-ad75-23ed8c26e00d;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID daf2598c-4992-4bae-bea8-66a6e5dcd3ba;
+			- _myState = 8192;
+			- _name = "Persona";
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Model1";
+				- _id = GUID 203b5c7e-a4c8-41d1-ad2a-fe3c8938ae7f;
+			}
+			- weakCGTime = 11.15.2013::8:51:17;
+			- strongCGTime = 11.15.2013::8:51:17;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 6a8b69b9-023c-4a97-8bdc-b8783b107bfc;
+			- _myState = 8192;
+			- _name = "Profesional";
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Model1";
+				- _id = GUID 203b5c7e-a4c8-41d1-ad2a-fe3c8938ae7f;
+			}
+			- weakCGTime = 11.15.2013::9:12:46;
+			- strongCGTime = 11.15.2013::8:51:17;
+			- Inheritances = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IGeneralization 
+					- _id = GUID ea92717f-e7aa-447e-befa-20b4617c8c43;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IClass";
+						- _id = GUID daf2598c-4992-4bae-bea8-66a6e5dcd3ba;
+					}
+					- _inheritanceType = iPublic;
+					- _isVirtual = 0;
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 1d45195e-578e-4d90-9974-a4b0bc9a11e9;
+					- _myState = 10240;
+					- _name = "itsHospital";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 1fce3eb9-9154-4d4b-b23d-386906dbf5e0;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 949d08eb-9423-47b3-baa6-0a8f689dbcea;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 05c6fb8f-5b42-48ce-8469-91dc4a673966;
+					- _myState = 10240;
+					- _name = "itsDepartamento";
+					- _multiplicity = "1..*";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 57b717d5-42e6-4ed0-a8a9-eecc4d741f77;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID a522f32a-090b-4970-9ac4-0a56d5a827bc;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID cb68a83a-577f-4668-b6bb-e93b40309fcd;
+			- _myState = 8192;
+			- _name = "AlertasSanitarias";
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Model1";
+				- _id = GUID 203b5c7e-a4c8-41d1-ad2a-fe3c8938ae7f;
+			}
+			- weakCGTime = 11.15.2013::8:51:17;
+			- strongCGTime = 11.15.2013::8:51:17;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 41ca3cb2-64ff-4ce8-9b22-abbd502f8860;
+					- _myState = 10240;
+					- _name = "itsPaciente";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 2aee8c37-0a5c-4eaf-ab50-267b7568166d;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID aa99753c-00d0-4cfc-a5a6-2551cad1a97c;
+					}
+					- _linkName = "";
+					- _linkType = Composition;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID aa447322-b7c3-4cfb-a039-8dd385fbef07;
+					- _myState = 10240;
+					- _name = "itsPaciente_1";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 2aee8c37-0a5c-4eaf-ab50-267b7568166d;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID e29915f4-c636-4830-827a-8c91a61db361;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 3fdd743c-9918-46bd-a902-4a8e36c7bfa3;
+			- _myState = 8192;
+			- _name = "HistorialPaciente";
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Model1";
+				- _id = GUID 203b5c7e-a4c8-41d1-ad2a-fe3c8938ae7f;
+			}
+			- _lastID = 1;
+			- weakCGTime = 11.15.2013::9:8:59;
+			- strongCGTime = 11.15.2013::8:51:17;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID d33a01a7-f625-4cee-9eeb-bb20047d2553;
+					- _myState = 10240;
+					- _name = "itsPaciente";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 2aee8c37-0a5c-4eaf-ab50-267b7568166d;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 35e67dec-81cd-4950-b568-f7a4fd931704;
+					}
+					- _linkName = "";
+					- _linkType = Aggreg;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID a43247e5-16df-4c88-9c5f-1589d78c6912;
+					- _myState = 10240;
+					- _name = "itsPaciente_1";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 2aee8c37-0a5c-4eaf-ab50-267b7568166d;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 6997c61c-434a-45a4-89bb-50cf9da89536;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 6db80654-7c03-44e7-8ea2-61a39d2f062c;
+			- _myState = 8192;
+			- _name = "Visitas";
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Model1";
+				- _id = GUID 203b5c7e-a4c8-41d1-ad2a-fe3c8938ae7f;
+			}
+			- weakCGTime = 11.15.2013::8:51:17;
+			- strongCGTime = 11.15.2013::8:51:17;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID f4f0667b-b526-419b-b5c7-21642a748fb9;
+					- _myState = 10240;
+					- _name = "itsPaciente";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 2aee8c37-0a5c-4eaf-ab50-267b7568166d;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 80fda9ac-75df-4001-a57b-bacdf49c7b98;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID f45825f5-ee67-4aa9-af56-6c35a3b64443;
+					- _myState = 10240;
+					- _name = "itsHospital";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 1fce3eb9-9154-4d4b-b23d-386906dbf5e0;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID fde2a5ce-cd47-479b-b8d3-f02a82b01af3;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID b8a787f1-eeed-439e-ab77-02fa91875691;
+			- _myState = 10240;
+			- _name = "class_8";
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Class Diagram 0";
+				- _id = GUID 9112ceb0-7085-4888-ad5b-8676c56a1745;
+			}
+			- _lastID = 1;
+			- Declaratives = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IInformationFlow 
+					- _id = GUID c37e00c2-8eb9-4204-8ac1-8fdde9c5e679;
+					- _myState = 2048;
+					- _name = "class_8_class_12";
+					- end1_ = { IHandle 
+						- _m2Class = "IClass";
+						- _id = GUID b8a787f1-eeed-439e-ab77-02fa91875691;
+					}
+					- end2_ = { IHandle 
+						- _m2Class = "IClass";
+						- _id = GUID c1b93688-ceee-48a3-8d94-3647e5947d19;
+					}
+					- direction_ = toEnd2;
+				}
+			}
+			- weakCGTime = 11.15.2013::8:52:27;
+			- strongCGTime = 11.15.2013::8:51:17;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 4;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 50d5025b-6534-437f-b195-49d5733278f8;
+					- _myState = 10240;
+					- _name = "itsClass_11";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID d14c4f2d-d806-4493-b7c1-867047275c0f;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 87752eee-1253-4f51-aef6-844152255180;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID c28e1eb4-1620-4d25-ab3d-107b8c26d8c4;
+					- _myState = 10240;
+					- _name = "itsClass_10";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 0f06ff26-d360-4fee-abb7-3a8553529ccd;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 9122f96b-caf4-4226-923b-38b7bd6aa270;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 13ba2724-f9cd-4f16-9db5-836ec5288b66;
+					- _myState = 10240;
+					- _name = "itsClass_13";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID c53b5805-e346-4f87-80fd-740ff2d56a4c;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 60d1113b-2868-4e7d-b6f9-d79d742ef6a1;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID f03135cf-9524-49a5-a9e2-c9c047cf1f28;
+					- _myState = 10240;
+					- _name = "itsClass_14";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID e250f638-a682-4b0c-9031-dcb193292165;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 98b9680d-97de-4c3b-8da6-d080c4739bf9;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 8bca3cd8-8da9-4005-bb8d-3815b6d9d1e0;
+			- _myState = 10240;
+			- _name = "class_9";
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Class Diagram 0";
+				- _id = GUID 9112ceb0-7085-4888-ad5b-8676c56a1745;
+			}
+			- weakCGTime = 11.15.2013::8:51:28;
+			- strongCGTime = 11.15.2013::8:51:28;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 0f06ff26-d360-4fee-abb7-3a8553529ccd;
+			- _myState = 10240;
+			- _name = "class_10";
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Class Diagram 0";
+				- _id = GUID 9112ceb0-7085-4888-ad5b-8676c56a1745;
+			}
+			- weakCGTime = 11.15.2013::8:51:50;
+			- strongCGTime = 11.15.2013::8:51:35;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 9122f96b-caf4-4226-923b-38b7bd6aa270;
+					- _myState = 10240;
+					- _name = "itsClass_8";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID b8a787f1-eeed-439e-ab77-02fa91875691;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID c28e1eb4-1620-4d25-ab3d-107b8c26d8c4;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID d14c4f2d-d806-4493-b7c1-867047275c0f;
+			- _myState = 10240;
+			- _name = "class_11";
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Class Diagram 0";
+				- _id = GUID 9112ceb0-7085-4888-ad5b-8676c56a1745;
+			}
+			- weakCGTime = 11.15.2013::8:51:42;
+			- strongCGTime = 11.15.2013::8:51:39;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 87752eee-1253-4f51-aef6-844152255180;
+					- _myState = 10240;
+					- _name = "itsClass_8";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID b8a787f1-eeed-439e-ab77-02fa91875691;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 50d5025b-6534-437f-b195-49d5733278f8;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID c1b93688-ceee-48a3-8d94-3647e5947d19;
+			- _myState = 10240;
+			- _name = "class_12";
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Class Diagram 0";
+				- _id = GUID 9112ceb0-7085-4888-ad5b-8676c56a1745;
+			}
+			- weakCGTime = 11.15.2013::8:51:54;
+			- strongCGTime = 11.15.2013::8:51:54;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID c53b5805-e346-4f87-80fd-740ff2d56a4c;
+			- _myState = 10240;
+			- _name = "class_13";
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Class Diagram 0";
+				- _id = GUID 9112ceb0-7085-4888-ad5b-8676c56a1745;
+			}
+			- weakCGTime = 11.15.2013::8:52:9;
+			- strongCGTime = 11.15.2013::8:51:58;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 60d1113b-2868-4e7d-b6f9-d79d742ef6a1;
+					- _myState = 10240;
+					- _name = "itsClass_8";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID b8a787f1-eeed-439e-ab77-02fa91875691;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 13ba2724-f9cd-4f16-9db5-836ec5288b66;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID e250f638-a682-4b0c-9031-dcb193292165;
+			- _myState = 10240;
+			- _name = "class_14";
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Class Diagram 0";
+				- _id = GUID 9112ceb0-7085-4888-ad5b-8676c56a1745;
+			}
+			- weakCGTime = 11.15.2013::8:52:17;
+			- strongCGTime = 11.15.2013::8:52:3;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 98b9680d-97de-4c3b-8da6-d080c4739bf9;
+					- _myState = 10240;
+					- _name = "itsClass_8";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID b8a787f1-eeed-439e-ab77-02fa91875691;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID f03135cf-9524-49a5-a9e2-c9c047cf1f28;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 91d90e83-b01d-4c06-b7a9-5f54c22b4515;
+			- _myState = 8192;
+			- _name = "Localizacion";
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Model1";
+				- _id = GUID 203b5c7e-a4c8-41d1-ad2a-fe3c8938ae7f;
+			}
+			- weakCGTime = 11.15.2013::9:15:39;
+			- strongCGTime = 11.15.2013::9:5:6;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 1ceb95cd-e3c1-47b6-8f86-373946da782e;
+					- _myState = 10240;
+					- _name = "itsPaciente";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 2aee8c37-0a5c-4eaf-ab50-267b7568166d;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 569dbdd6-9107-4150-8a7a-7fdf70762328;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 57b717d5-42e6-4ed0-a8a9-eecc4d741f77;
+			- _myState = 8192;
+			- _name = "Departamento";
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Model1";
+				- _id = GUID 203b5c7e-a4c8-41d1-ad2a-fe3c8938ae7f;
+			}
+			- weakCGTime = 11.15.2013::9:13:4;
+			- strongCGTime = 11.15.2013::9:10:49;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID b32d96bc-35ff-4b6f-ad75-23ed8c26e00d;
+					- _myState = 10240;
+					- _name = "itsEnfermedad";
+					- _multiplicity = "1..*";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 51b89127-b507-4a8a-bad6-4db128091cf1;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 87b02512-2fff-49f4-a145-adac0d5da2ab;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID a522f32a-090b-4970-9ac4-0a56d5a827bc;
+					- _myState = 10240;
+					- _name = "itsProfesional";
+					- _multiplicity = "1..*";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 6a8b69b9-023c-4a97-8bdc-b8783b107bfc;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 05c6fb8f-5b42-48ce-8469-91dc4a673966;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 55596f63-1b7d-45b9-aab0-9be7dc6b3ced;
+			- _myState = 8192;
+			- _name = "InformacionMedicacion";
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Model1";
+				- _id = GUID 203b5c7e-a4c8-41d1-ad2a-fe3c8938ae7f;
+			}
+			- weakCGTime = 11.15.2013::9:23:10;
+			- strongCGTime = 11.15.2013::9:23:6;
+			- Inheritances = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IGeneralization 
+					- _id = GUID 81727a18-6770-41b2-aa28-feb1d499d053;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 51b89127-b507-4a8a-bad6-4db128091cf1;
+					}
+					- _inheritanceType = iPublic;
+					- _isVirtual = 0;
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 76dae353-8660-4590-b3d5-44120db03b8b;
+			- _myState = 8192;
+			- _name = "PlanDeVisitasPeriodicas";
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Model1";
+				- _id = GUID 203b5c7e-a4c8-41d1-ad2a-fe3c8938ae7f;
+			}
+			- weakCGTime = 11.15.2013::9:24:29;
+			- strongCGTime = 11.15.2013::9:24:19;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID c2166647-02d2-45ed-b7bf-02955630baad;
+					- _myState = 10240;
+					- _name = "itsPaciente";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 2aee8c37-0a5c-4eaf-ab50-267b7568166d;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID c0f5c717-4f78-4214-bee0-2cda44c4cf32;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID c8021acb-09e9-4a92-9c6c-c21cd9a7e909;
+			- _myState = 8192;
+			- _name = "Eventos";
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Model1";
+				- _id = GUID 203b5c7e-a4c8-41d1-ad2a-fe3c8938ae7f;
+			}
+			- weakCGTime = 11.15.2013::9:25:16;
+			- strongCGTime = 11.15.2013::9:25:9;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 93831719-425c-4395-81fc-31273d3ccdc0;
+					- _myState = 10240;
+					- _name = "itsPaciente";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 2aee8c37-0a5c-4eaf-ab50-267b7568166d;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 397266e4-dcd4-4f33-a1f2-1958d8b183ab;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 77e2629d-6094-4fac-8488-cdd52ffeafc8;
+			- _myState = 8192;
+			- _name = "RecomendacionesSaludables";
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Model1";
+				- _id = GUID 203b5c7e-a4c8-41d1-ad2a-fe3c8938ae7f;
+			}
+			- weakCGTime = 11.15.2013::9:27:8;
+			- strongCGTime = 11.15.2013::9:26:8;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID e7204946-5c4c-4733-85f7-902f65ba9b11;
+					- _myState = 10240;
+					- _name = "itsPaciente";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 2aee8c37-0a5c-4eaf-ab50-267b7568166d;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 2b682033-cf7c-4a0b-8a4c-601053bc7784;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID f2712cf3-36a1-4b04-bf21-b02c0c305bb3;
+			- _myState = 8192;
+			- _name = "PuntosDeInteres";
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Model1";
+				- _id = GUID 203b5c7e-a4c8-41d1-ad2a-fe3c8938ae7f;
+			}
+			- weakCGTime = 11.15.2013::9:26:19;
+			- strongCGTime = 11.15.2013::9:26:19;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 11.15.2013::8:16:48;
+}
+
