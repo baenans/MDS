@@ -253,7 +253,7 @@ I-Logix-RPY-Archive version 8.6.0 Java 4012249
 				}
 			}
 			- _name = "Modelo Estructural del Dominio";
-			- _lastModifiedTime = "12.7.2013::17:57:2";
+			- _lastModifiedTime = "12.7.2013::20:38:28";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID 76d1aed2-e073-41ca-a7b9-3461f9348bc4;
 				- m_type = 0;
@@ -10010,7 +10010,7 @@ I-Logix-RPY-Archive version 8.6.0 Java 4012249
 				}
 			}
 			- _name = "Caso de uso 1.3";
-			- _lastModifiedTime = "12.7.2013::17:58:15";
+			- _lastModifiedTime = "12.7.2013::18:56:51";
 			- _graphicChart = { CCollaborationChart 
 				- _id = GUID 4ca679a1-e30a-4985-b016-730165108210;
 				- m_type = 0;
@@ -10521,9 +10521,12 @@ I-Logix-RPY-Archive version 8.6.0 Java 4012249
 							- m_bgColor = 0;
 							- m_bgFlag = 0;
 						}
-						- m_position = 4 -44 -7  45 -7  45 8  -44 8  ;
+						- m_position = 4 -6 -8  109 -8  109 6  -6 6  ;
 						- m_nIdent = 0;
 						- m_bImplicitSetRectPoints = 0;
+						- m_transform = 1 0 0 1 438 144 ;
+						- m_nHorizontalSpacing = -28;
+						- m_nVerticalSpacing = 1;
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 4096;
