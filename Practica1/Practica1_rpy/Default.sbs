@@ -3,19 +3,19 @@ I-Logix-RPY-Archive version 8.6.0 Java 4012249
 	- _id = GUID f37567ff-e040-4aae-bbd0-9a63eca54fee;
 	- _myState = 8192;
 	- _name = "Default";
-	- _lastID = 23;
-	- weakCGTime = 11.22.2013::8:58:17;
+	- _lastID = 26;
+	- weakCGTime = 11.29.2013::9:24:35;
 	- strongCGTime = 11.15.2013::8:51:17;
 	- _defaultComposite = GUID 5ff2363b-6502-4cbc-a476-94b3af09fa64;
 	- _eventsBaseID = -1;
 	- Classes = { IRPYRawContainer 
-		- size = 23;
+		- size = 17;
 		- value = 
 		{ IClass 
 			- _id = GUID 5ff2363b-6502-4cbc-a476-94b3af09fa64;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- weakCGTime = 11.15.2013::9:26:13;
+			- weakCGTime = 11.29.2013::8:54:49;
 			- strongCGTime = 11.15.2013::8:51:17;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -35,7 +35,7 @@ I-Logix-RPY-Archive version 8.6.0 Java 4012249
 				- _name = "Model1";
 				- _id = GUID 203b5c7e-a4c8-41d1-ad2a-fe3c8938ae7f;
 			}
-			- weakCGTime = 11.15.2013::9:0:31;
+			- weakCGTime = 11.29.2013::9:20:42;
 			- strongCGTime = 11.15.2013::8:51:17;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -47,7 +47,7 @@ I-Logix-RPY-Archive version 8.6.0 Java 4012249
 				{ IAssociationEnd 
 					- _id = GUID 949d08eb-9423-47b3-baa6-0a8f689dbcea;
 					- _myState = 10240;
-					- _name = "itsProfesional";
+					- _name = "itsSanitario";
 					- _multiplicity = "0..*";
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IClass";
@@ -81,7 +81,7 @@ I-Logix-RPY-Archive version 8.6.0 Java 4012249
 				{ IAssociationEnd 
 					- _id = GUID 753b547c-11cf-4456-b354-df3926786f63;
 					- _myState = 10240;
-					- _name = "itsPaciente";
+					- _name = "itsUsuario";
 					- _multiplicity = "0..*";
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IClass";
@@ -101,7 +101,7 @@ I-Logix-RPY-Archive version 8.6.0 Java 4012249
 		{ IClass 
 			- _id = GUID 2aee8c37-0a5c-4eaf-ab50-267b7568166d;
 			- _myState = 8192;
-			- _name = "Paciente";
+			- _name = "Usuario";
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IDiagram";
 				- _filename = "";
@@ -111,8 +111,8 @@ I-Logix-RPY-Archive version 8.6.0 Java 4012249
 				- _id = GUID 203b5c7e-a4c8-41d1-ad2a-fe3c8938ae7f;
 			}
 			- _lastID = 2;
-			- weakCGTime = 11.22.2013::8:25:29;
-			- strongCGTime = 11.15.2013::8:51:17;
+			- weakCGTime = 11.29.2013::9:20:35;
+			- strongCGTime = 11.29.2013::9:20:35;
 			- Attrs = { IRPYRawContainer 
 				- size = 1;
 				- value = 
@@ -391,7 +391,7 @@ I-Logix-RPY-Archive version 8.6.0 Java 4012249
 				- _id = GUID 203b5c7e-a4c8-41d1-ad2a-fe3c8938ae7f;
 			}
 			- _lastID = 2;
-			- weakCGTime = 11.22.2013::8:25:19;
+			- weakCGTime = 11.29.2013::9:20:35;
 			- strongCGTime = 11.15.2013::8:51:17;
 			- Attrs = { IRPYRawContainer 
 				- size = 1;
@@ -424,7 +424,7 @@ I-Logix-RPY-Archive version 8.6.0 Java 4012249
 				{ IAssociationEnd 
 					- _id = GUID 58039c0b-5f86-48d3-a9ef-4db606aaa67a;
 					- _myState = 10240;
-					- _name = "itsPaciente";
+					- _name = "itsUsuario_2";
 					- _multiplicity = "0..*";
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IClass";
@@ -458,7 +458,7 @@ I-Logix-RPY-Archive version 8.6.0 Java 4012249
 				{ IAssociationEnd 
 					- _id = GUID 1ceb95cd-e3c1-47b6-8f86-373946da782e;
 					- _myState = 10240;
-					- _name = "itsPaciente_1";
+					- _name = "itsUsuario_1";
 					- _multiplicity = "1";
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IClass";
@@ -475,7 +475,7 @@ I-Logix-RPY-Archive version 8.6.0 Java 4012249
 				{ IAssociationEnd 
 					- _id = GUID eb93be30-1a21-4a42-9db7-7d3d3ff06f51;
 					- _myState = 10240;
-					- _name = "itsPaciente_2";
+					- _name = "itsUsuario";
 					- _multiplicity = "0..*";
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IClass";
@@ -571,7 +571,7 @@ I-Logix-RPY-Archive version 8.6.0 Java 4012249
 		{ IClass 
 			- _id = GUID 6a8b69b9-023c-4a97-8bdc-b8783b107bfc;
 			- _myState = 8192;
-			- _name = "Profesional";
+			- _name = "Sanitario";
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IDiagram";
 				- _filename = "";
@@ -580,9 +580,36 @@ I-Logix-RPY-Archive version 8.6.0 Java 4012249
 				- _name = "Model1";
 				- _id = GUID 203b5c7e-a4c8-41d1-ad2a-fe3c8938ae7f;
 			}
-			- _lastID = 1;
-			- weakCGTime = 11.22.2013::8:30:39;
-			- strongCGTime = 11.15.2013::8:51:17;
+			- _lastID = 2;
+			- weakCGTime = 11.29.2013::9:20:42;
+			- strongCGTime = 11.29.2013::9:20:42;
+			- Operations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IPrimitiveOperation 
+					- _id = GUID 7e133050-c4bb-4fa8-a20f-1754b885df4e;
+					- _myState = 8192;
+					- _name = "dardeAlta";
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 38d26ae8-de64-4b2e-8b3e-d6cbe8e0a76d;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+			}
 			- Attrs = { IRPYRawContainer 
 				- size = 1;
 				- value = 
@@ -691,7 +718,7 @@ I-Logix-RPY-Archive version 8.6.0 Java 4012249
 				- _id = GUID 203b5c7e-a4c8-41d1-ad2a-fe3c8938ae7f;
 			}
 			- _lastID = 3;
-			- weakCGTime = 11.22.2013::8:25:10;
+			- weakCGTime = 11.29.2013::9:20:35;
 			- strongCGTime = 11.22.2013::8:21:31;
 			- Attrs = { IRPYRawContainer 
 				- size = 3;
@@ -758,7 +785,7 @@ I-Logix-RPY-Archive version 8.6.0 Java 4012249
 				{ IAssociationEnd 
 					- _id = GUID 41ca3cb2-64ff-4ce8-9b22-abbd502f8860;
 					- _myState = 10240;
-					- _name = "itsPaciente";
+					- _name = "itsUsuario_2";
 					- _multiplicity = "1";
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IClass";
@@ -775,7 +802,7 @@ I-Logix-RPY-Archive version 8.6.0 Java 4012249
 				{ IAssociationEnd 
 					- _id = GUID aa447322-b7c3-4cfb-a039-8dd385fbef07;
 					- _myState = 10240;
-					- _name = "itsPaciente_1";
+					- _name = "itsUsuario_1";
 					- _multiplicity = "1";
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IClass";
@@ -792,7 +819,7 @@ I-Logix-RPY-Archive version 8.6.0 Java 4012249
 				{ IAssociationEnd 
 					- _id = GUID d28d4382-869d-48ce-83ad-d7cf8c0000e9;
 					- _myState = 10240;
-					- _name = "itsPaciente_2";
+					- _name = "itsUsuario";
 					- _multiplicity = "1";
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IClass";
@@ -822,7 +849,7 @@ I-Logix-RPY-Archive version 8.6.0 Java 4012249
 				- _id = GUID 203b5c7e-a4c8-41d1-ad2a-fe3c8938ae7f;
 			}
 			- _lastID = 1;
-			- weakCGTime = 11.15.2013::9:8:59;
+			- weakCGTime = 11.29.2013::9:20:35;
 			- strongCGTime = 11.15.2013::8:51:17;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -834,7 +861,7 @@ I-Logix-RPY-Archive version 8.6.0 Java 4012249
 				{ IAssociationEnd 
 					- _id = GUID d33a01a7-f625-4cee-9eeb-bb20047d2553;
 					- _myState = 10240;
-					- _name = "itsPaciente";
+					- _name = "itsUsuario_1";
 					- _multiplicity = "1";
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IClass";
@@ -851,7 +878,7 @@ I-Logix-RPY-Archive version 8.6.0 Java 4012249
 				{ IAssociationEnd 
 					- _id = GUID a43247e5-16df-4c88-9c5f-1589d78c6912;
 					- _myState = 10240;
-					- _name = "itsPaciente_1";
+					- _name = "itsUsuario";
 					- _multiplicity = "1";
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IClass";
@@ -880,7 +907,7 @@ I-Logix-RPY-Archive version 8.6.0 Java 4012249
 				- _name = "Model1";
 				- _id = GUID 203b5c7e-a4c8-41d1-ad2a-fe3c8938ae7f;
 			}
-			- weakCGTime = 11.15.2013::8:51:17;
+			- weakCGTime = 11.29.2013::9:20:35;
 			- strongCGTime = 11.15.2013::8:51:17;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -892,7 +919,7 @@ I-Logix-RPY-Archive version 8.6.0 Java 4012249
 				{ IAssociationEnd 
 					- _id = GUID f4f0667b-b526-419b-b5c7-21642a748fb9;
 					- _myState = 10240;
-					- _name = "itsPaciente";
+					- _name = "itsUsuario";
 					- _multiplicity = "1";
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IClass";
@@ -927,265 +954,6 @@ I-Logix-RPY-Archive version 8.6.0 Java 4012249
 			- _classModifier = Unspecified;
 		}
 		{ IClass 
-			- _id = GUID b8a787f1-eeed-439e-ab77-02fa91875691;
-			- _myState = 10240;
-			- _name = "class_8";
-			- _lastID = 1;
-			- Declaratives = { IRPYRawContainer 
-				- size = 1;
-				- value = 
-				{ IInformationFlow 
-					- _id = GUID c37e00c2-8eb9-4204-8ac1-8fdde9c5e679;
-					- _myState = 2048;
-					- _name = "class_8_class_12";
-					- end1_ = { IHandle 
-						- _m2Class = "IClass";
-						- _id = GUID b8a787f1-eeed-439e-ab77-02fa91875691;
-					}
-					- end2_ = { IHandle 
-						- _m2Class = "IClass";
-						- _id = GUID c1b93688-ceee-48a3-8d94-3647e5947d19;
-					}
-					- direction_ = toEnd2;
-				}
-			}
-			- weakCGTime = 11.22.2013::8:58:17;
-			- strongCGTime = 11.15.2013::8:51:17;
-			- _multiplicity = "";
-			- _itsStateChart = { IHandle 
-				- _m2Class = "";
-			}
-			- Associations = { IRPYRawContainer 
-				- size = 4;
-				- value = 
-				{ IAssociationEnd 
-					- _id = GUID 50d5025b-6534-437f-b195-49d5733278f8;
-					- _myState = 10240;
-					- _name = "itsClass_11";
-					- _multiplicity = "1";
-					- _otherClass = { IClassifierHandle 
-						- _m2Class = "IClass";
-						- _id = GUID d14c4f2d-d806-4493-b7c1-867047275c0f;
-					}
-					- _inverse = { IHandle 
-						- _m2Class = "IAssociationEnd";
-						- _id = GUID 87752eee-1253-4f51-aef6-844152255180;
-					}
-					- _linkName = "";
-					- _linkType = Assoc;
-					- _navigability = Navigable;
-				}
-				{ IAssociationEnd 
-					- _id = GUID c28e1eb4-1620-4d25-ab3d-107b8c26d8c4;
-					- _myState = 10240;
-					- _name = "itsClass_10";
-					- _multiplicity = "1";
-					- _otherClass = { IClassifierHandle 
-						- _m2Class = "IClass";
-						- _id = GUID 0f06ff26-d360-4fee-abb7-3a8553529ccd;
-					}
-					- _inverse = { IHandle 
-						- _m2Class = "IAssociationEnd";
-						- _id = GUID 9122f96b-caf4-4226-923b-38b7bd6aa270;
-					}
-					- _linkName = "";
-					- _linkType = Assoc;
-					- _navigability = Navigable;
-				}
-				{ IAssociationEnd 
-					- _id = GUID 13ba2724-f9cd-4f16-9db5-836ec5288b66;
-					- _myState = 10240;
-					- _name = "itsClass_13";
-					- _multiplicity = "1";
-					- _otherClass = { IClassifierHandle 
-						- _m2Class = "IClass";
-						- _id = GUID c53b5805-e346-4f87-80fd-740ff2d56a4c;
-					}
-					- _inverse = { IHandle 
-						- _m2Class = "IAssociationEnd";
-						- _id = GUID 60d1113b-2868-4e7d-b6f9-d79d742ef6a1;
-					}
-					- _linkName = "";
-					- _linkType = Assoc;
-					- _navigability = Navigable;
-				}
-				{ IAssociationEnd 
-					- _id = GUID f03135cf-9524-49a5-a9e2-c9c047cf1f28;
-					- _myState = 10240;
-					- _name = "itsClass_14";
-					- _multiplicity = "1";
-					- _otherClass = { IClassifierHandle 
-						- _m2Class = "IClass";
-						- _id = GUID e250f638-a682-4b0c-9031-dcb193292165;
-					}
-					- _inverse = { IHandle 
-						- _m2Class = "IAssociationEnd";
-						- _id = GUID 98b9680d-97de-4c3b-8da6-d080c4739bf9;
-					}
-					- _linkName = "";
-					- _linkType = Assoc;
-					- _navigability = Navigable;
-				}
-			}
-			- _classModifier = Unspecified;
-		}
-		{ IClass 
-			- _id = GUID 8bca3cd8-8da9-4005-bb8d-3815b6d9d1e0;
-			- _myState = 10240;
-			- _name = "class_9";
-			- weakCGTime = 11.22.2013::8:58:17;
-			- strongCGTime = 11.15.2013::8:51:28;
-			- _multiplicity = "";
-			- _itsStateChart = { IHandle 
-				- _m2Class = "";
-			}
-			- _classModifier = Unspecified;
-		}
-		{ IClass 
-			- _id = GUID 0f06ff26-d360-4fee-abb7-3a8553529ccd;
-			- _myState = 10240;
-			- _name = "class_10";
-			- weakCGTime = 11.22.2013::8:58:17;
-			- strongCGTime = 11.15.2013::8:51:35;
-			- _multiplicity = "";
-			- _itsStateChart = { IHandle 
-				- _m2Class = "";
-			}
-			- Associations = { IRPYRawContainer 
-				- size = 1;
-				- value = 
-				{ IAssociationEnd 
-					- _id = GUID 9122f96b-caf4-4226-923b-38b7bd6aa270;
-					- _myState = 10240;
-					- _name = "itsClass_8";
-					- _multiplicity = "1";
-					- _otherClass = { IClassifierHandle 
-						- _m2Class = "IClass";
-						- _id = GUID b8a787f1-eeed-439e-ab77-02fa91875691;
-					}
-					- _inverse = { IHandle 
-						- _m2Class = "IAssociationEnd";
-						- _id = GUID c28e1eb4-1620-4d25-ab3d-107b8c26d8c4;
-					}
-					- _linkName = "";
-					- _linkType = Assoc;
-					- _navigability = Navigable;
-				}
-			}
-			- _classModifier = Unspecified;
-		}
-		{ IClass 
-			- _id = GUID d14c4f2d-d806-4493-b7c1-867047275c0f;
-			- _myState = 10240;
-			- _name = "class_11";
-			- weakCGTime = 11.22.2013::8:58:17;
-			- strongCGTime = 11.15.2013::8:51:39;
-			- _multiplicity = "";
-			- _itsStateChart = { IHandle 
-				- _m2Class = "";
-			}
-			- Associations = { IRPYRawContainer 
-				- size = 1;
-				- value = 
-				{ IAssociationEnd 
-					- _id = GUID 87752eee-1253-4f51-aef6-844152255180;
-					- _myState = 10240;
-					- _name = "itsClass_8";
-					- _multiplicity = "1";
-					- _otherClass = { IClassifierHandle 
-						- _m2Class = "IClass";
-						- _id = GUID b8a787f1-eeed-439e-ab77-02fa91875691;
-					}
-					- _inverse = { IHandle 
-						- _m2Class = "IAssociationEnd";
-						- _id = GUID 50d5025b-6534-437f-b195-49d5733278f8;
-					}
-					- _linkName = "";
-					- _linkType = Assoc;
-					- _navigability = Navigable;
-				}
-			}
-			- _classModifier = Unspecified;
-		}
-		{ IClass 
-			- _id = GUID c1b93688-ceee-48a3-8d94-3647e5947d19;
-			- _myState = 10240;
-			- _name = "class_12";
-			- weakCGTime = 11.22.2013::8:58:17;
-			- strongCGTime = 11.15.2013::8:51:54;
-			- _multiplicity = "";
-			- _itsStateChart = { IHandle 
-				- _m2Class = "";
-			}
-			- _classModifier = Unspecified;
-		}
-		{ IClass 
-			- _id = GUID c53b5805-e346-4f87-80fd-740ff2d56a4c;
-			- _myState = 10240;
-			- _name = "class_13";
-			- weakCGTime = 11.22.2013::8:58:17;
-			- strongCGTime = 11.15.2013::8:51:58;
-			- _multiplicity = "";
-			- _itsStateChart = { IHandle 
-				- _m2Class = "";
-			}
-			- Associations = { IRPYRawContainer 
-				- size = 1;
-				- value = 
-				{ IAssociationEnd 
-					- _id = GUID 60d1113b-2868-4e7d-b6f9-d79d742ef6a1;
-					- _myState = 10240;
-					- _name = "itsClass_8";
-					- _multiplicity = "1";
-					- _otherClass = { IClassifierHandle 
-						- _m2Class = "IClass";
-						- _id = GUID b8a787f1-eeed-439e-ab77-02fa91875691;
-					}
-					- _inverse = { IHandle 
-						- _m2Class = "IAssociationEnd";
-						- _id = GUID 13ba2724-f9cd-4f16-9db5-836ec5288b66;
-					}
-					- _linkName = "";
-					- _linkType = Assoc;
-					- _navigability = Navigable;
-				}
-			}
-			- _classModifier = Unspecified;
-		}
-		{ IClass 
-			- _id = GUID e250f638-a682-4b0c-9031-dcb193292165;
-			- _myState = 10240;
-			- _name = "class_14";
-			- weakCGTime = 11.22.2013::8:58:17;
-			- strongCGTime = 11.15.2013::8:52:3;
-			- _multiplicity = "";
-			- _itsStateChart = { IHandle 
-				- _m2Class = "";
-			}
-			- Associations = { IRPYRawContainer 
-				- size = 1;
-				- value = 
-				{ IAssociationEnd 
-					- _id = GUID 98b9680d-97de-4c3b-8da6-d080c4739bf9;
-					- _myState = 10240;
-					- _name = "itsClass_8";
-					- _multiplicity = "1";
-					- _otherClass = { IClassifierHandle 
-						- _m2Class = "IClass";
-						- _id = GUID b8a787f1-eeed-439e-ab77-02fa91875691;
-					}
-					- _inverse = { IHandle 
-						- _m2Class = "IAssociationEnd";
-						- _id = GUID f03135cf-9524-49a5-a9e2-c9c047cf1f28;
-					}
-					- _linkName = "";
-					- _linkType = Assoc;
-					- _navigability = Navigable;
-				}
-			}
-			- _classModifier = Unspecified;
-		}
-		{ IClass 
 			- _id = GUID 57b717d5-42e6-4ed0-a8a9-eecc4d741f77;
 			- _myState = 8192;
 			- _name = "Departamento";
@@ -1197,7 +965,7 @@ I-Logix-RPY-Archive version 8.6.0 Java 4012249
 				- _name = "Model1";
 				- _id = GUID 203b5c7e-a4c8-41d1-ad2a-fe3c8938ae7f;
 			}
-			- weakCGTime = 11.15.2013::9:13:4;
+			- weakCGTime = 11.29.2013::9:20:42;
 			- strongCGTime = 11.15.2013::9:10:49;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -1226,7 +994,7 @@ I-Logix-RPY-Archive version 8.6.0 Java 4012249
 				{ IAssociationEnd 
 					- _id = GUID a522f32a-090b-4970-9ac4-0a56d5a827bc;
 					- _myState = 10240;
-					- _name = "itsProfesional";
+					- _name = "itsSanitario";
 					- _multiplicity = "1..*";
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IClass";
@@ -1288,7 +1056,7 @@ I-Logix-RPY-Archive version 8.6.0 Java 4012249
 				- _name = "Model1";
 				- _id = GUID 203b5c7e-a4c8-41d1-ad2a-fe3c8938ae7f;
 			}
-			- weakCGTime = 11.15.2013::9:24:29;
+			- weakCGTime = 11.29.2013::9:20:35;
 			- strongCGTime = 11.15.2013::9:24:19;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -1300,7 +1068,7 @@ I-Logix-RPY-Archive version 8.6.0 Java 4012249
 				{ IAssociationEnd 
 					- _id = GUID c2166647-02d2-45ed-b7bf-02955630baad;
 					- _myState = 10240;
-					- _name = "itsPaciente";
+					- _name = "itsUsuario";
 					- _multiplicity = "1";
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IClass";
@@ -1330,7 +1098,7 @@ I-Logix-RPY-Archive version 8.6.0 Java 4012249
 				- _id = GUID 203b5c7e-a4c8-41d1-ad2a-fe3c8938ae7f;
 			}
 			- _lastID = 4;
-			- weakCGTime = 11.22.2013::8:23:46;
+			- weakCGTime = 11.29.2013::9:20:35;
 			- strongCGTime = 11.22.2013::8:21:35;
 			- Attrs = { IRPYRawContainer 
 				- size = 4;
@@ -1414,7 +1182,7 @@ I-Logix-RPY-Archive version 8.6.0 Java 4012249
 				{ IAssociationEnd 
 					- _id = GUID 93831719-425c-4395-81fc-31273d3ccdc0;
 					- _myState = 10240;
-					- _name = "itsPaciente";
+					- _name = "itsUsuario";
 					- _multiplicity = "1";
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IClass";
@@ -1444,7 +1212,7 @@ I-Logix-RPY-Archive version 8.6.0 Java 4012249
 				- _id = GUID 203b5c7e-a4c8-41d1-ad2a-fe3c8938ae7f;
 			}
 			- _lastID = 2;
-			- weakCGTime = 11.22.2013::8:29:16;
+			- weakCGTime = 11.29.2013::9:20:35;
 			- strongCGTime = 11.22.2013::8:21:41;
 			- Attrs = { IRPYRawContainer 
 				- size = 2;
@@ -1494,7 +1262,7 @@ I-Logix-RPY-Archive version 8.6.0 Java 4012249
 				{ IAssociationEnd 
 					- _id = GUID e7204946-5c4c-4733-85f7-902f65ba9b11;
 					- _myState = 10240;
-					- _name = "itsPaciente";
+					- _name = "itsUsuario";
 					- _multiplicity = "1";
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IClass";
@@ -1583,7 +1351,7 @@ I-Logix-RPY-Archive version 8.6.0 Java 4012249
 				- _id = GUID 203b5c7e-a4c8-41d1-ad2a-fe3c8938ae7f;
 			}
 			- _lastID = 1;
-			- weakCGTime = 11.22.2013::8:25:49;
+			- weakCGTime = 11.29.2013::9:20:42;
 			- strongCGTime = 11.22.2013::8:24:33;
 			- Attrs = { IRPYRawContainer 
 				- size = 1;
@@ -1629,7 +1397,7 @@ I-Logix-RPY-Archive version 8.6.0 Java 4012249
 				{ IAssociationEnd 
 					- _id = GUID 9835d505-5a16-4cf6-a071-662f455416d3;
 					- _myState = 10240;
-					- _name = "itsProfesional";
+					- _name = "itsSanitario";
 					- _multiplicity = "1";
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IClass";
@@ -1646,7 +1414,27 @@ I-Logix-RPY-Archive version 8.6.0 Java 4012249
 			}
 			- _classModifier = Unspecified;
 		}
+		{ IClass 
+			- _id = GUID c5d3d61b-a97b-4bf1-9d72-65b7a7e462e0;
+			- _myState = 8192;
+			- _name = "BDU";
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Model1";
+				- _id = GUID 203b5c7e-a4c8-41d1-ad2a-fe3c8938ae7f;
+			}
+			- weakCGTime = 11.29.2013::9:24:46;
+			- strongCGTime = 11.29.2013::9:24:46;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
 	}
-	- _configurationRelatedTime = 11.22.2013::8:21:29;
+	- _configurationRelatedTime = 11.29.2013::9:21:59;
 }
 
