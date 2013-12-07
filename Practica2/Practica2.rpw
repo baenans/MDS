@@ -5,7 +5,7 @@ I-Logix-RPY-Archive version 8.6.0 * 4012249
 	}
 	- isLoadOnDemand = 0;
 	- myViewsWithID = { IRPYRawContainer 
-		- size = 4;
+		- size = 5;
 		- value = 
 		{ CGEMdiDiagramParams 
 			- _placement = { CCommon_WINDOWPLACEMENT 
@@ -30,10 +30,10 @@ I-Logix-RPY-Archive version 8.6.0 * 4012249
 				- _name = "Caso de uso 1.1";
 				- _id = GUID 53ecd8fb-251b-403b-a0b0-77b59cc404a0;
 			}
-			- _UpLeft = 0 0 ;
-			- _DownRight = 565 295 ;
+			- _UpLeft = 0 120 ;
+			- _DownRight = 565 415 ;
 			- _instanceName = "";
-			- m_nDiagramIndex = 3;
+			- m_nDiagramIndex = 4;
 		}
 		{ CGEMdiDiagramParams 
 			- _placement = { CCommon_WINDOWPLACEMENT 
@@ -58,10 +58,10 @@ I-Logix-RPY-Archive version 8.6.0 * 4012249
 				- _name = "Caso de uso 1.2";
 				- _id = GUID d303741a-5c49-4399-b9b9-83dbf0dcfbfe;
 			}
-			- _UpLeft = 0 20 ;
-			- _DownRight = 565 315 ;
+			- _UpLeft = 0 240 ;
+			- _DownRight = 565 535 ;
 			- _instanceName = "";
-			- m_nDiagramIndex = 2;
+			- m_nDiagramIndex = 3;
 		}
 		{ CGEMdiDiagramParams 
 			- _placement = { CCommon_WINDOWPLACEMENT 
@@ -72,10 +72,10 @@ I-Logix-RPY-Archive version 8.6.0 * 4012249
 				- m_ptMinPositionY = -1;
 				- m_ptMaxPositionX = -4;
 				- m_ptMaxPositionY = -30;
-				- m_nLeft = 50;
-				- m_nTop = 50;
-				- m_nRight = 836;
-				- m_nBottom = 527;
+				- m_nLeft = 44;
+				- m_nTop = 58;
+				- m_nRight = 638;
+				- m_nBottom = 428;
 			}
 			- _wasOpenedOnCloseProject = 1;
 			- _theDiagram = { IHandle 
@@ -86,10 +86,10 @@ I-Logix-RPY-Archive version 8.6.0 * 4012249
 				- _name = "Caso de uso 1.3";
 				- _id = GUID 0318bfbb-ae33-465a-ac83-942be11b2934;
 			}
-			- _UpLeft = 27 0 ;
-			- _DownRight = 761 544 ;
+			- _UpLeft = 28 11 ;
+			- _DownRight = 993 486 ;
 			- _instanceName = "";
-			- m_nDiagramIndex = 4;
+			- m_nDiagramIndex = 0;
 		}
 		{ CGEMdiDiagramParams 
 			- _placement = { CCommon_WINDOWPLACEMENT 
@@ -117,7 +117,35 @@ I-Logix-RPY-Archive version 8.6.0 * 4012249
 			- _UpLeft = 0 0 ;
 			- _DownRight = 565 295 ;
 			- _instanceName = "";
-			- m_nDiagramIndex = 0;
+			- m_nDiagramIndex = 2;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -4;
+				- m_ptMaxPositionY = -30;
+				- m_nLeft = 22;
+				- m_nTop = 29;
+				- m_nRight = 616;
+				- m_nBottom = 399;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Modelo Estructural del Dominio";
+				- _id = GUID 203b5c7e-a4c8-41d1-ad2a-fe3c8938ae7f;
+			}
+			- _UpLeft = 18 286 ;
+			- _DownRight = 612 617 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 1;
 		}
 	}
 	- _fullName = "G:\\MODELADO\\MDS\\PRACTICA2\\Practica2";
