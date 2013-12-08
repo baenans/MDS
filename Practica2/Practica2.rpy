@@ -253,7 +253,7 @@ I-Logix-RPY-Archive version 8.6.0 Java 4012249
 				}
 			}
 			- _name = "Modelo Estructural del Dominio";
-			- _lastModifiedTime = "12.7.2013::23:28:39";
+			- _lastModifiedTime = "12.8.2013::12:26:47";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID 76d1aed2-e073-41ca-a7b9-3461f9348bc4;
 				- m_type = 0;
@@ -10112,7 +10112,7 @@ I-Logix-RPY-Archive version 8.6.0 Java 4012249
 				}
 			}
 			- _name = "Caso de uso 1.3";
-			- _lastModifiedTime = "12.7.2013::23:29:1";
+			- _lastModifiedTime = "12.8.2013::12:17:37";
 			- _graphicChart = { CCollaborationChart 
 				- _id = GUID 4ca679a1-e30a-4985-b016-730165108210;
 				- m_type = 0;
@@ -10758,7 +10758,7 @@ I-Logix-RPY-Archive version 8.6.0 Java 4012249
 					}
 					- m_pParent = ;
 					- m_name = { CGIText 
-						- m_str = "1. cierraSesionSistema()";
+						- m_str = "2 cierraSesionUsuario()";
 						- m_style = "Arial" 10 0 0 0 1 ;
 						- m_color = { IColor 
 							- m_fgColor = 0;
@@ -11591,8 +11591,8 @@ I-Logix-RPY-Archive version 8.6.0 Java 4012249
 					}
 					{ IMessage 
 						- _id = GUID 18ee7973-21b6-428b-bdde-585ba8513e1f;
-						- _name = "cierraSesionSistema";
-						- m_szSequence = "1.";
+						- _name = "cierraSesionUsuario";
+						- m_szSequence = "2";
 						- m_szActualArgs = "";
 						- m_szReturnVal = "";
 						- m_pCommunicationConnection = { IHandle 
@@ -11709,7 +11709,7 @@ I-Logix-RPY-Archive version 8.6.0 Java 4012249
 					{ IMessage 
 						- _id = GUID bddcfefe-6225-4684-9f08-be08ec26c9e2;
 						- _name = "cierraSesion";
-						- m_szSequence = "3";
+						- m_szSequence = "3.";
 						- m_szActualArgs = "";
 						- m_szReturnVal = "";
 						- m_pCommunicationConnection = { IHandle 
@@ -11746,7 +11746,6 @@ I-Logix-RPY-Archive version 8.6.0 Java 4012249
 					}
 					{ CollEvent 
 						- _id = GUID b44d19ae-ae51-46a0-af93-f08733a74388;
-						- _myState = 64;
 						- first = UNSPECIFIED;
 						- second = GUID bb8f67ed-bc17-49cd-b014-5df6099a6073;
 					}
@@ -11757,7 +11756,6 @@ I-Logix-RPY-Archive version 8.6.0 Java 4012249
 					}
 					{ CollEvent 
 						- _id = GUID 9f3a9a1c-c170-4bda-8b3a-2fa1dc960630;
-						- _myState = 64;
 						- first = UNSPECIFIED;
 						- second = GUID bb501661-9063-4e11-94e1-b84149562dc0;
 					}
@@ -11773,33 +11771,28 @@ I-Logix-RPY-Archive version 8.6.0 Java 4012249
 					}
 					{ CollEvent 
 						- _id = GUID f651240b-61a3-4ff1-964d-b2a5dd3fd26a;
-						- _myState = 64;
 						- first = UNSPECIFIED;
 						- second = GUID f6b00a3c-f155-4a99-9881-9e1e6351190e;
 					}
 					{ CollEvent 
 						- _id = GUID f9538d4d-ced3-4e5b-84fa-1b6339b2309c;
-						- _myState = 64;
 						- first = UNSPECIFIED;
 						- second = GUID 23c48794-3ec0-40ed-b922-158a35087796;
 					}
 					{ CollEvent 
-						- _id = GUID 26213546-5680-47f7-bab5-173047e45985;
+						- _id = GUID d23edb6f-7800-42ba-a224-3ff7e4c5e90a;
+						- _myState = 64;
 						- first = UNSPECIFIED;
 						- second = GUID 18ee7973-21b6-428b-bdde-585ba8513e1f;
 					}
 					{ CollEvent 
 						- _id = GUID edc067f8-2b85-4c90-953c-ba25139394d4;
-						- _myState = 64;
 						- first = UNSPECIFIED;
 						- second = GUID bddcfefe-6225-4684-9f08-be08ec26c9e2;
 					}
 				}
 			}
 		}
-	}
-	- PanelDiagrams = { IRPYRawContainer 
-		- size = 0;
 	}
 }
 
