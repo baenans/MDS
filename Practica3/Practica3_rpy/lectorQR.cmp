@@ -1,8 +1,8 @@
 I-Logix-RPY-Archive version 8.6.0 Java 4012249
 { IComponent 
-	- _id = GUID 68c07cdf-0a99-4f55-a4f1-a03236f40477;
-	- _myState = 139264;
-	- _name = "DefaultComponent";
+	- _id = GUID a313dd3e-1a5e-4f40-bca8-08cbb0ea3e54;
+	- _myState = 8192;
+	- _name = "lectorQR";
 	- m_buildType = Executable;
 	- m_libraries = "";
 	- m_additionalSources = "";
@@ -10,7 +10,7 @@ I-Logix-RPY-Archive version 8.6.0 Java 4012249
 	- m_includePath = "";
 	- m_initializationCode = "";
 	- m_folder = { IFolder 
-		- _id = GUID ac899d1b-1d81-487d-8c93-fe86adfef0dc;
+		- _id = GUID 4f49af2e-6ecb-4ff0-bb1e-79841471d510;
 		- _myState = 73728;
 		- _name = "Files";
 		- m_path = "";
@@ -23,36 +23,36 @@ I-Logix-RPY-Archive version 8.6.0 Java 4012249
 	}
 	- m_configActive = { ICodeGenConfigInfoHandle 
 		- _m2Class = "ICodeGenConfigInfo";
-		- _id = GUID 49d0251b-ad49-4d93-872d-39a82ea275d0;
+		- _id = GUID 7ba42ad8-22d2-4f87-a7a0-adcf7603eee3;
 	}
 	- Configs = { IRPYRawContainer 
 		- size = 1;
 		- value = 
 		{ ICodeGenConfigInfo 
-			- _id = GUID 49d0251b-ad49-4d93-872d-39a82ea275d0;
+			- _id = GUID 7ba42ad8-22d2-4f87-a7a0-adcf7603eee3;
 			- _myState = 8192;
 			- _name = "DefaultConfig";
 			- HyperLinks = { IRPYRawContainer 
 				- size = 2;
 				- value = 
 				{ IMHyperLink 
-					- _id = GUID 67672a62-c37d-45c1-ac4d-a710acb3efb2;
+					- _id = GUID 2c8b6e77-8e46-42c8-9fc3-2c7a24753725;
 					- _dependsOn = { INObjectHandle 
 						- _m2Class = "";
 					}
 					- _linkDispName = "Edit Makefile";
 					- _linkType = "FREE";
-					- _linkTarget = "C:/Program Files (x86)/IBM/Rational/Rhapsody/7.6.1/Practica1/DefaultComponent/DefaultConfig/DefaultComponent.bat";
+					- _linkTarget = "C:/Users/Andres Ramos/Documents/Universidad/4 - Ing. Soft Mix 1\º 2\º 3\º/Modelado y Dise\ño del Software/Pr\ácticas/Pr\áctica 2. Modelado din\ámico/Practica 2 - Proyecto Rhapsody/lectorQR/DefaultConfig/lectorQR.bat";
 					- isConfigurationFileHyperLink = 1;
 				}
 				{ IMHyperLink 
-					- _id = GUID a5db1ec2-cb93-4b9a-b114-06f41fc85658;
+					- _id = GUID 77bf5c71-e135-4ef4-8ade-4c12566851d2;
 					- _dependsOn = { INObjectHandle 
 						- _m2Class = "";
 					}
 					- _linkDispName = "Edit Main File";
 					- _linkType = "FREE";
-					- _linkTarget = "C:/Program Files (x86)/IBM/Rational/Rhapsody/7.6.1/Practica1/DefaultComponent/DefaultConfig/MainDefaultComponent";
+					- _linkTarget = "C:/Users/Andres Ramos/Documents/Universidad/4 - Ing. Soft Mix 1\º 2\º 3\º/Modelado y Dise\ño del Software/Pr\ácticas/Pr\áctica 2. Modelado din\ámico/Practica 2 - Proyecto Rhapsody/lectorQR/DefaultConfig/MainlectorQR";
 					- isConfigurationFileHyperLink = 1;
 				}
 			}
@@ -75,7 +75,7 @@ I-Logix-RPY-Archive version 8.6.0 Java 4012249
 				- size = 0;
 			}
 			- _root = { IFolder 
-				- _id = GUID b8178d86-190a-4050-a740-47e807f906d2;
+				- _id = GUID b149cc53-f9c6-4bca-8886-337b4a59adc2;
 				- _myState = 8192;
 				- _name = "DefaultConfig";
 				- m_path = "";
@@ -95,26 +95,6 @@ I-Logix-RPY-Archive version 8.6.0 Java 4012249
 			- m_generateUsecases = 0;
 		}
 	}
-	- HandlesInMe = { IRPYRawContainer 
-		- size = 2;
-		- value = 
-		{ IHandle 
-			- _m2Class = "ISubsystem";
-			- _filename = "Default.sbs";
-			- _subsystem = "";
-			- _class = "";
-			- _name = "Default";
-			- _id = GUID f37567ff-e040-4aae-bbd0-9a63eca54fee;
-		}
-		{ IHandle 
-			- _m2Class = "IProfile";
-			- _filename = "$OMROOT\\Profiles\\JavaDoc\\\\JavaDocProfile.sbs";
-			- _subsystem = "";
-			- _class = "";
-			- _name = "JavaDocProfile";
-			- _id = GUID 19700e28-456f-4c97-a19c-b95dcb3e9dff;
-		}
-	}
 	- VariationPoints = { IRPYRawContainer 
 		- size = 0;
 	}
@@ -122,6 +102,6 @@ I-Logix-RPY-Archive version 8.6.0 Java 4012249
 		- size = 0;
 	}
 	- weakCGTime = 12.20.2013::9:31:0;
-	- strongCGTime = 1.2.1990::0:0:0;
+	- strongCGTime = 12.20.2013::9:19:48;
 }
 

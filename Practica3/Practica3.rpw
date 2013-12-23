@@ -5,64 +5,8 @@ I-Logix-RPY-Archive version 8.6.0 * 4012249
 	}
 	- isLoadOnDemand = 0;
 	- myViewsWithID = { IRPYRawContainer 
-		- size = 5;
+		- size = 2;
 		- value = 
-		{ CGEMdiDiagramParams 
-			- _placement = { CCommon_WINDOWPLACEMENT 
-				- m_nLength = 44;
-				- m_nFlags = 0;
-				- m_showCmd = 1;
-				- m_ptMinPositionX = -1;
-				- m_ptMinPositionY = -1;
-				- m_ptMaxPositionX = -4;
-				- m_ptMaxPositionY = -30;
-				- m_nLeft = 44;
-				- m_nTop = 58;
-				- m_nRight = 638;
-				- m_nBottom = 428;
-			}
-			- _wasOpenedOnCloseProject = 1;
-			- _theDiagram = { IHandle 
-				- _m2Class = "IMSC";
-				- _filename = "";
-				- _subsystem = "";
-				- _class = "";
-				- _name = "Caso de uso 1.1";
-				- _id = GUID 53ecd8fb-251b-403b-a0b0-77b59cc404a0;
-			}
-			- _UpLeft = 0 0 ;
-			- _DownRight = 565 295 ;
-			- _instanceName = "";
-			- m_nDiagramIndex = 4;
-		}
-		{ CGEMdiDiagramParams 
-			- _placement = { CCommon_WINDOWPLACEMENT 
-				- m_nLength = 44;
-				- m_nFlags = 0;
-				- m_showCmd = 1;
-				- m_ptMinPositionX = -1;
-				- m_ptMinPositionY = -1;
-				- m_ptMaxPositionX = -4;
-				- m_ptMaxPositionY = -30;
-				- m_nLeft = 66;
-				- m_nTop = 87;
-				- m_nRight = 660;
-				- m_nBottom = 457;
-			}
-			- _wasOpenedOnCloseProject = 1;
-			- _theDiagram = { IHandle 
-				- _m2Class = "IMSC";
-				- _filename = "";
-				- _subsystem = "";
-				- _class = "";
-				- _name = "Caso de uso 1.2";
-				- _id = GUID d303741a-5c49-4399-b9b9-83dbf0dcfbfe;
-			}
-			- _UpLeft = 0 33 ;
-			- _DownRight = 594 343 ;
-			- _instanceName = "";
-			- m_nDiagramIndex = 3;
-		}
 		{ CGEMdiDiagramParams 
 			- _placement = { CCommon_WINDOWPLACEMENT 
 				- m_nLength = 44;
@@ -70,24 +14,24 @@ I-Logix-RPY-Archive version 8.6.0 * 4012249
 				- m_showCmd = 3;
 				- m_ptMinPositionX = -1;
 				- m_ptMinPositionY = -1;
-				- m_ptMaxPositionX = -4;
+				- m_ptMaxPositionX = -8;
 				- m_ptMaxPositionY = -30;
-				- m_nLeft = 44;
-				- m_nTop = 58;
-				- m_nRight = 638;
-				- m_nBottom = 428;
+				- m_nLeft = 175;
+				- m_nTop = 175;
+				- m_nRight = 936;
+				- m_nBottom = 633;
 			}
 			- _wasOpenedOnCloseProject = 1;
 			- _theDiagram = { IHandle 
-				- _m2Class = "ICollaborationDiagram";
+				- _m2Class = "IComponentDiagram";
 				- _filename = "";
 				- _subsystem = "";
 				- _class = "";
-				- _name = "Caso de uso 1.3";
-				- _id = GUID 0318bfbb-ae33-465a-ac83-942be11b2934;
+				- _name = "Diagrama de Componentes del Sistema";
+				- _id = GUID 469ddc24-d83c-440b-98de-5c08ebd5888f;
 			}
 			- _UpLeft = 0 0 ;
-			- _DownRight = 698 518 ;
+			- _DownRight = 713 411 ;
 			- _instanceName = "";
 			- m_nDiagramIndex = 0;
 		}
@@ -98,35 +42,7 @@ I-Logix-RPY-Archive version 8.6.0 * 4012249
 				- m_showCmd = 1;
 				- m_ptMinPositionX = -1;
 				- m_ptMinPositionY = -1;
-				- m_ptMaxPositionX = -4;
-				- m_ptMaxPositionY = -30;
-				- m_nLeft = 110;
-				- m_nTop = 145;
-				- m_nRight = 704;
-				- m_nBottom = 515;
-			}
-			- _wasOpenedOnCloseProject = 1;
-			- _theDiagram = { IHandle 
-				- _m2Class = "IMSC";
-				- _filename = "";
-				- _subsystem = "";
-				- _class = "";
-				- _name = "Caso de uso 2.1";
-				- _id = GUID 9594ddac-a270-4e9f-89e7-8dfdaf8c96c1;
-			}
-			- _UpLeft = 0 0 ;
-			- _DownRight = 565 295 ;
-			- _instanceName = "";
-			- m_nDiagramIndex = 2;
-		}
-		{ CGEMdiDiagramParams 
-			- _placement = { CCommon_WINDOWPLACEMENT 
-				- m_nLength = 44;
-				- m_nFlags = 0;
-				- m_showCmd = 1;
-				- m_ptMinPositionX = -1;
-				- m_ptMinPositionY = -1;
-				- m_ptMaxPositionX = -4;
+				- m_ptMaxPositionX = -8;
 				- m_ptMaxPositionY = -30;
 				- m_nLeft = 22;
 				- m_nTop = 29;
@@ -142,13 +58,13 @@ I-Logix-RPY-Archive version 8.6.0 * 4012249
 				- _name = "Modelo Estructural del Dominio";
 				- _id = GUID 203b5c7e-a4c8-41d1-ad2a-fe3c8938ae7f;
 			}
-			- _UpLeft = 0 206 ;
-			- _DownRight = 594 537 ;
+			- _UpLeft = -3 216 ;
+			- _DownRight = 953 750 ;
 			- _instanceName = "";
 			- m_nDiagramIndex = 1;
 		}
 	}
-	- _fullName = "G:\\Modelado\\MDS\\Practica3\\Practica3";
+	- _fullName = "C:\\Users\\Andres Ramos\\Documents\\Universidad\\4 - Ing. Soft Mix 1\º 2\º 3\º\\Modelado y Dise\ño del Software\\Pr\ácticas\\P\áctica 3\\Proyecto Rhapsody\\Practica3";
 	- m_SearchScopeList = { IRPYRawContainer 
 		- size = 0;
 	}
